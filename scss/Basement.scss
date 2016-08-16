@@ -46,7 +46,15 @@ img{
     }
     .swiper-container{
         height:231px;
+        .swiper-wrapper{
+          height:231px;
+          img{
+            width:100%;
+            height:231px;
+          }
+        }
     }
+
     .section{
        overflow-y:auto;
        -webkit-flex-grow:1;
